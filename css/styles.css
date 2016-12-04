@@ -1,0 +1,50 @@
+#bracketsSchemaPreviewContents ul {
+  list-style-type: none;  
+}
+
+#bracketsSchemaPreviewContents > ul {
+  margin-left: 0;
+}
+
+#bracketsSchemaPreviewContents > ul > li > ul {
+  max-width: 500px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  padding: 7px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  max-height: 30px;
+  overflow: hidden;
+  background: white;
+  color: black;
+}
+
+#bracketsSchemaPreviewContents > ul > li > ul > li {
+  position: relative;
+  font-weight: bold;
+}
+
+#bracketsSchemaPreviewContents > ul > li > ul > li::after {
+  content: 'v';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 7px;
+}
+
+#bracketsSchemaPreviewContents > ul > li > ul > li > ul {
+  font-weight: normal;
+}
+
+#bracketsSchemaPreviewContents > ul > li > ul:nth-child(even) {
+  background: silver;
+}
+
+#bracketsSchemaPreviewContents ul.expanded {
+  max-height: none;
+}
+
+#bracketsSchemaPreviewContents {
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "semantic-schema-parser": "^0.1.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

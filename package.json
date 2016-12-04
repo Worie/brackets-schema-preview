@@ -1,0 +1,13 @@
+{
+    "name": "worie.brackets-schema-preview",
+    "title": "Schema Preview",
+    "description": "Preview your HTML Schema",
+    "homepage": "https://github.com/worie/brackets-schema-preview",
+    "version": "0.1.0",
+    "author": "Wojciech Połowniak <wojciech.polowniak@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+      "schema",
+      "preview"
+    ]
+}
